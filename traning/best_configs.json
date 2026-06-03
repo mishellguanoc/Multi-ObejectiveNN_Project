@@ -1,0 +1,56 @@
+[
+  {
+    "architecture": "mlp",
+    "sampler": "tpe",
+    "params": {
+      "learning_rate": 0.005447501845663929,
+      "batch_size": 64,
+      "optimizer": "adam",
+      "n_layers": 1,
+      "activation": "relu",
+      "dropout": 0.05970497804111416,
+      "n_units_l0": 237
+    },
+    "f1": 0.8744,
+    "inference_us": 5.89,
+    "size_mb": 0.1273,
+    "trial": 29,
+    "pareto_solution": 9
+  },
+  {
+    "architecture": "residual_mlp",
+    "sampler": "nsga2",
+    "params": {
+      "learning_rate": 0.00023612399244412623,
+      "batch_size": 32,
+      "optimizer": "adam",
+      "n_layers": 1,
+      "activation": "leakyrelu",
+      "dropout": 0.4303652916281717,
+      "n_units_l0": 33
+    },
+    "f1": 0.8666,
+    "inference_us": 2.65,
+    "size_mb": 0.1701,
+    "trial": 4,
+    "pareto_solution": 2
+  },
+  {
+    "architecture": "mlp",
+    "sampler": "nsga2",
+    "params": {
+      "learning_rate": 0.007568292060167619,
+      "batch_size": 128,
+      "optimizer": "adamw",
+      "n_layers": 1,
+      "activation": "tanh",
+      "dropout": 0.41436875457596467,
+      "n_units_l0": 112
+    },
+    "f1": 0.8602,
+    "inference_us": 1.34,
+    "size_mb": 0.0654,
+    "trial": 4,
+    "pareto_solution": 3
+  }
+]
