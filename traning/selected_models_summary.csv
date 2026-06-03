@@ -1,0 +1,4 @@
+Architecture,Sampler,Pareto_Solution,Trial_Number,F1,Inference_us,Model_Size_MB,Accuracy,Layers,Activation,Dropout,Optimizer,Batch_Size,Learning_Rate,Units
+MLP,TPE,9,29,0.8744,5.89,0.1273,0.8708,1,relu,0.0597,adam,64,0.005448,237
+ResidualMLP,NSGA-II,2,4,0.8666,2.65,0.1701,0.8592,1,tanh,0.4144,adamw,128,0.007568,112
+MLP,NSGA-II,3,4,0.8602,1.34,0.0654,0.8602,1,tanh,0.4144,adamw,128,0.007568,112
