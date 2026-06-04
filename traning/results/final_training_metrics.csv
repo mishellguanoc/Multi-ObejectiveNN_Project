@@ -1,0 +1,4 @@
+architecture,sampler,trial,test_f1,test_accuracy,test_precision,inference_us_per_sample,training_time_seconds,model_path,confusion_matrix_plot
+mlp,tpe,29,0.8765,0.8765,0.8765,6.612240079390638,19.379167079925537,models\mlp_tpe_trial29_f10.8765.pth,results\cm_mlp_tpe_trial29.png
+residual_mlp,nsga2,4,0.8518795120736868,0.85125,0.8482895389191869,32.47597350007709,59.924203395843506,models\residual_mlp_nsga2_trial4_f10.8519.pth,results\cm_residual_mlp_nsga2_trial4.png
+mlp,nsga2,4,0.8593212001967536,0.857,0.8455953533397871,4.238705810486465,19.65225601196289,models\mlp_nsga2_trial4_f10.8593.pth,results\cm_mlp_nsga2_trial4.png
